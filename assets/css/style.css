@@ -145,6 +145,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
   #main {
     margin-left: 100px;
+    margin-right: 100px;
   }
 }
 
@@ -267,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.7);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -499,7 +500,6 @@ section {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
-  text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #0563bb;
   margin-bottom: 10px;
@@ -1175,4 +1175,14 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+
+.skills-content h4 {
+  display: inline-block;
+  margin: 0.4rem;
+}
+
+.skills-content span {
+  font-weight: 300;
 }
